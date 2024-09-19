@@ -7,7 +7,27 @@
 
 }
 
-img {
-  max-width: 100%;
-  height: auto; /* Permite que la altura se ajuste automáticamente */
+.proyectos {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Alinea las imágenes verticalmente al centro */
+  justify-content: space-between; /* Espacia las imágenes uniformemente */
+}
+.uno {
+  display: flex;
+  width: 400px;
+  height: 400px;
+}
+
+.dos{
+  
+  display: flex;
+  width: 400px;
+  height: 400px;
+}
+
+.tres {
+  display: flex;
+  width: 400px;
+  height: 400px;
 }
